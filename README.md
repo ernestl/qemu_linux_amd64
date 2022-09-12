@@ -10,7 +10,7 @@ The makefile, along with the make utility, simplifies repetitive development and
 * `make hda`       - Build AMD64 Linux image with mdos partition with grub bootloader and ext4 partition with filesystem and kernel
 * `make test`      - Run shellcheck static analyzer
 
-#### build-qemu-amd64-image-initramfs.sh
+#### _build-qemu-amd64-image-initramfs.sh_
  - Builds AMD64 Linux initramfs filesystem
  - Create basic root filesystem directory structure
  - Build Busybox from scratch and install onto root filesystem
@@ -19,7 +19,7 @@ The makefile, along with the make utility, simplifies repetitive development and
  - Download and extract pre-build kernel
  - Run QEMU with kernel and initramfs filesystem
 
-#### build-qemu-amd64-image-hda.sh
+#### _build-qemu-amd64-image-hda.sh_
  - Builds AMD64 Linux initramfs filesystem
  - Create basic root filesystem directory structure
  - Build Busybox from scratch and install onto root filesystem
